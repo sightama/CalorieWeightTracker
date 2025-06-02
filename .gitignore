@@ -31,3 +31,53 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (contains SDK path, etc.)
+local.properties
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android Studio cache
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/httpRequests/
+
+# Keystore files (used for signing your app)
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+app/build/
+*/build/
+
+# Compiled files
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Android NDK
+ndkBuild/
+
+# Proguard configuration files
+proguard-rules.pro
